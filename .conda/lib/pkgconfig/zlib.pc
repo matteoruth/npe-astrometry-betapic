@@ -1,0 +1,13 @@
+prefix=/home/matteo/Documents/npe-betapic/.conda
+exec_prefix=/home/matteo/Documents/npe-betapic/.conda
+libdir=/home/matteo/Documents/npe-betapic/.conda/lib
+sharedlibdir=/home/matteo/Documents/npe-betapic/.conda/lib
+includedir=/home/matteo/Documents/npe-betapic/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
